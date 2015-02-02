@@ -10,19 +10,19 @@ namespace tictactoe
     {
 
         
-        public Player GetWhoTurn()
+        public PlayerMark GetWhoTurn()
         {
             throw new NotImplementedException();
         }
 
-       
-        public Player GetMarkAt(int x, int y)
+
+        public PlayerMark GetMarkAt(int x, int y)
         {
             throw new NotImplementedException();
         }
 
-        
-        public bool TryPlaceMarkAt(Player player, int x, int y)
+
+        public bool TryPlaceMarkAt(PlayerMark player, int x, int y)
         {
             throw new NotImplementedException();
         }
@@ -34,7 +34,7 @@ namespace tictactoe
         }
 
 
-        public Player GetWinner()
+        public PlayerMark GetWinner()
         {
             throw new NotImplementedException();
         }
